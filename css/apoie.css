@@ -1,153 +1,154 @@
+@media only screen and (min-width: 1200px) {
 
-*{
-  margin: 0 ;
-  padding: 0;
+  *{
+    margin: 0 ;
+    padding: 0;
+  }
+
+  /*Add line-height*/
+
+  body{
+    background-color: #F2ECE2;
+    max-width: 1347px;
+    height: 1370px;
+  }
+
+  .logo{
+    max-width: 123px;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  .sec1 p{
+    margin: 25px 25px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  a{
+    text-decoration: none;
+    color: #1E5044;
+  }
+
+  nav ul li{
+    list-style: none;
+  }
+
+  header{
+    border: 1px #1E5044 solid;
+    max-width: 1200px;
+    height: 95px;
+    margin: 23px 60px 23px 60px;
+    padding: 10px 0px 10px 30px;
+  }
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 23px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 8vh;
+  }
+
+  .lista li{
+    letter-spacing: 3px;
+    margin-left: 12px;
+    display: inline;
+    float: right;
+    color: #1E5044;
+  }
+
+  .lista{
+    margin-left:90px;
+  }
+
+  .ft-principal{
+    width: 810px;
+    height: 612px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 74px;
+  }
+
+  .sec1{
+    text-align: center;
+    border: 1px solid black;
+    width: 1200px;
+    margin: 120px auto 120px auto;
+  }
+
+  section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #1E5044;
+    font-weight: 400;
+  }
+
+  section p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: #122E23;
+  }
+
+  footer{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .img-footer{
+    width: 153px;
+    height: 99px;
+    float: right;
+    padding: 40px 122px;
+  }
+
+  footer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0 18px 122px;
+    color: #1E5044;
+  }
+
+  footer ul{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 0 40px 122px;
+    color: #122E23;
+  }
+
+  .footer-class{
+    display: flex;
+    line-height: 22px;
+  }
+
+  .footer{
+    border-top: 1px solid black;
+    width: 1216px;
+    margin-left: 68px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .footer h3{
+    padding-top: 15px;
+    padding-left: 40px;
+  }
+
+  .span1{
+    color: #1E5044;
+  }
+
+  .span2{
+    color: #AEF084;
+  }
+
 }
-
-/*Add line-height*/
-
-body{
-  background-color: #F2ECE2;
-  width: 1347px;
-  height: 1370px;
-}
-
-.logo{
-  max-width: 123px;
-  height: 100px;
-  margin-left: 50px;
-}
-
-.sec1 p{
-  margin: 25px 25px;
-  font-family: 'Roboto Mono', monospace;
-}
-
-a{
-  text-decoration: none;
-  color: #1E5044;
-}
-
-nav ul li{
-  list-style: none;
-}
-
-header{
-  border: 1px #1E5044 solid;
-  max-width: 1200px;
-  height: 95px;
-  margin: 23px 60px 23px 60px;
-  padding: 10px 0px 10px 30px;
-}
-
-.links{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 23px auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  height: 8vh;
-}
-
-.lista li{
-  letter-spacing: 3px;
-  margin-left: 12px;
-  display: inline;
-  float: right;
-  color: #1E5044;
-}
-
-.lista{
-  margin-left:90px;
-}
-
-.ft-principal{
-  width: 810px;
-  height: 612px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 74px;
-}
-
-.sec1{
-  text-align: center;
-  border: 1px solid black;
-  width: 1200px;
-  margin: 120px auto 120px auto;
-}
-
-section h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  color: #1E5044;
-  font-weight: 400;
-}
-
-section p{
-  font-family: 'Roboto Mono', monospace;
-  font-size: 18px;
-  color: #122E23;
-}
-
-footer{
-  width: 100%;
-  height: 280px;
-  background-color: rgb(255, 255, 255);
-}
-
-.img-footer{
-  width: 153px;
-  height: 99px;
-  float: right;
-  padding: 40px 122px;
-}
-
-footer h2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  padding: 15px 0 18px 122px;
-  color: #1E5044;
-}
-
-footer ul{
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 0 0 40px 122px;
-  color: #122E23;
-}
-
-.footer-class{
-  display: flex;
-  line-height: 22px;
-}
-
-.footer{
-  border-top: 1px solid black;
-  width: 1216px;
-  margin-left: 68px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.footer h3{
-  padding-top: 15px;
-  padding-left: 40px;
-}
-
-.span1{
-  color: #1E5044;
-}
-
-.span2{
-  color: #AEF084;
-}
-
-
 
 
 
