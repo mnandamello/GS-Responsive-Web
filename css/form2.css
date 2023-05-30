@@ -1,0 +1,131 @@
+/*Formulário da Secretaria*/
+
+body{
+  background-color: #F2ECE2;
+  height: 890px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.container h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #1E5044;
+  font-weight: 500;
+}
+
+label{
+  font-family: 'Roboto Mono', monospace;
+  color: #122E23;
+  font-weight: 400;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+a {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #122E23;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  border: 1px solid #122E23;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #729B79;
+  text-decoration: none;
+  color: #122E23;
+}
+
+select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+
+footer{
+  width: 100%;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.img-footer{
+  width: 153px;
+  height: 99px;
+  float: right;
+  padding: 40px 122px;
+}
+
+footer h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 25px 0 0 122px;
+  color: #1E5044;
+}
+
+footer ul{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 0 20px 122px;
+  color: #122E23;
+}
+
+.footer{
+  border-top: 1px solid black;
+  width: 1216px;
+  margin-left: 68px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer h3{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.span1{
+  color: #1E5044;
+}
+
+.span2{
+  color: #AEF084;
+}
