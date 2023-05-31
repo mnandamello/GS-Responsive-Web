@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/form1.css">
+    <link rel="stylesheet" href="./css/form1XS.css">
+    <link rel="stylesheet" href="./css/form1SM.css">
     <title>Formulário de Cadastro de Agricultores</title>
 </head>
     <body>
@@ -18,8 +20,18 @@
         <form>
 
             <div class="form-group">
-                <label for="nome">Nome:</label>
+                <label for="nome">Nome da Empresa:</label>
                 <input type="text" id="nome" name="nome" required value="Maria Fernanda">
+            </div>
+
+            <div class="form-group">
+              <label for="nome">Nome do Representante Legal:</label>
+              <input type="text" id="nome" name="nome" required value="Maria Fernanda">
+            </div>
+
+            <div class="form-group">
+              <label for="nome">CPF do Representante:</label>
+              <input type="text" id="nome" name="nome" required value="Maria Fernanda">
             </div>
 
             <div class="form-group">
@@ -28,9 +40,9 @@
             </div>
 
             <div class="form-group">
-              <label for="endereco">CNPJ</label>
-              <textarea id="endereco" name="endereco" required></textarea>
-          </div>
+              <label for="endereco">CNPJ da Empresa</label>
+              <input type="text" id="endereco" name="endereco" required>
+            </div>
 
             <div class="form-group">
                 <label for="telefone">Telefone:</label>
@@ -39,30 +51,38 @@
 
             <div class="form-group">
                 <label for="endereco">Endereço:</label>
-                <textarea id="endereco" name="endereco" required></textarea>
+                <input type="text" id="endereco" name="endereco" required>
+            </div>
+
+            <div class="form-group">
+              <label for="endereco">Estado:</label>
+              <input type="text" id="endereco" name="endereco" required value="São Paulo">
             </div>
 
 
             <div>
-              <label for="estado">Estado:</label>
+              <label for="estado">Municipio:</label>
                 <div class="form-group">
                   <select id="estado" name="estado" required>
                       <option value="">Selecione</option>
-                      <option value="AC">Acre</option>
-                      <option value="AL">Alagoas</option>
-                      <option value="AP">Amapá</option>
-                      <option value="AM">Amazonas</option>
-                      <option value="BA">Bahia</option>
-                      <option value="CE">Ceará</option>
-                      <option value="DF">Distrito Federal</option>
-                      <option value="CE">São Paulo</option>
+                      <option>Suzano</option>
+                      <option>Mogi das Cruzes</option>
+                      <option>Áruja</option>
+                      <option>Barueri</option>
+                      <option>Guararema</option>
+                      <option>São Caetano do Sul</option>
+                      <option>Campinas</option>
+                      <option>Sorocaba</option>
+                      <option>Piracicaba</option>
+                      <option>Guaruja</option>
+                      <option>Cotia</option>
                       <!-- Adicione mais opções de estado aqui -->
                   </select>
                 </div>
             </div>
 
           <div class="form-button">
-            <a href="/">Cadastrar</a>
+            <a class="botao" href="/">Cadastrar</a>
           </div>
 
         </form>
@@ -73,14 +93,26 @@
 
       <img class="img-footer" src="./img/Captura_de_tela_2023-05-26_181458-removebg-preview 1.png" alt="">
   
-      <h2>RM dos Entegrantes</h2>
-      <ul>
-        <li>Maria Fernanda Ribeiro Mello - 98818</li>
-        <li>Nicolas Reis do Espirito Santo - 98819</li>
-        <li>Gabrielle da Silva Stanguini - 98786</li>
-        <li>Lucca Rinaldi Valladão de Freitas - 98207</li>
-        <li>Renan Vieira de Jesus - 551813</li>
-      </ul>
+      <h2>RM dos Integrantes</h2>
+  
+      <div class="footer-class">
+        <ul class="nomes">
+          <li>Maria Fernanda Ribeiro Mello - 98818</li>
+          <li>Nicolas Reis do Espirito Santo - 98819</li>
+          <li>Gabrielle da Silva Stanguini - 98786</li>
+          <li>Lucca Rinaldi Valladão de Freitas - 98207</li>
+          <li>Renan Vieira de Jesus - 551813</li>
+        </ul>
+  
+        <ul class="links-footer">
+          <li><a href="">Contate-nos</a></li>
+          <li><a href="">Cultivo Eficiente</a></li>
+          <li><a href="">IA Generativa</a></li>
+          <li><a href="">Agricultura Sustentável</a></li>
+          <li><a href="">Quem somos Nós</a></li>
+        </ul>
+  
+      </div>
   
   
       <div class="footer">

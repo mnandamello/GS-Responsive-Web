@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px), (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
 
   *{
       margin: 0 auto;
@@ -9,8 +9,19 @@
     display: none;
   }
 
-  /*Section 1*/
+  body{
+    width: 400px;
+    height: 1322px;
+  }
 
+
+  /*HEADER*/
+  header{
+    text-align: center;
+  }
+
+  /*Section 1*/
+  
   .sec1 p{
     margin: 25px 25px;
   }
@@ -23,9 +34,8 @@
 
   .sec1{
     text-align: center;
-    border: 1px solid black;
     width: 300px;
-    margin: 40px auto 40px 58px;
+    margin: 40px auto 40px 58px; 
   }
 
   section h1{
@@ -46,9 +56,9 @@
  /*Aqui são os quadrados*/
 
  .sec2{
-  width: 260px;
-  height: 704px;
-  margin: 0 auto;
+    width: 260px;
+    height: 704px;
+    margin: 0 auto;
   }
 
   .quadrado-info{

@@ -1,29 +1,32 @@
-@media only screen and (min-width: 1100px){
+@media only screen and (min-width: 400px) and (max-width: 600px){
 
-  /*Formulário da Secretaria*/
+  /*Formulário dos Agricultores*/
 
   body{
     background-color: #F2ECE2;
-    height: 890px;
+    width: 100%;
     margin: 0;
   }
 
   .container {
-    max-width: 400px;
-    margin: 0 auto;
-    margin-bottom: 60px;
+    max-width: 300px;
+    margin: 0 auto 60px auto;
   }
 
   .container h2{
     font-family: 'Montserrat', sans-serif;
     color: #1E5044;
     font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    width: 280px;
   }
 
   label{
     font-family: 'Roboto Mono', monospace;
     color: #122E23;
     font-weight: 400;
+    font-size: 16px;
   }
 
   .form-group {
@@ -32,69 +35,60 @@
 
   .form-group label {
     display: block;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 5px;
   }
 
   .form-group input[type="text"],
   .form-group input[type="email"] {
-    width: 100%;
+    width: 280px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-
-  .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  }
-
-
-  a:hover{
-    background-color: #729B79;
-    text-decoration: none;
-    color: #122E23;
   }
 
   select{  
-    width: 100%;
+    width: 280px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 25px;
   }
 
+
   footer{
     width: 100%;
-    height: 280px;
-    background-color: rgb(218, 201, 201);
-    border-top: 1px solid #122E23;
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #1E5044;
+    margin-top: 50px;
+  }
+
+  .nomes{
+    display: none;
   }
 
   .img-footer{
-    width: 153px;
-    height: 99px;
+    width: 82px;
+    height: 53px;
     float: right;
-    padding: 50px 122px;
+    padding: 40px 20px 0 0;
   }
 
   footer h2{
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    padding: 8px 0 0px 122px;
-    color: #1E5044;
+    font-size: 18px;
+    color: #1E5044;*/
+    display: none;
   }
 
   footer ul{
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-size: 14px;
-    padding: 0 0 10px 122px;
     color: #122E23;
+    margin: 10 0 10px 20px;
   }
 
   .footer-class{
@@ -102,22 +96,27 @@
     line-height: 22px;
   }
 
-  .links-footer a{
+  ul li a{
     text-decoration: none;
     color: #122E23;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
   }
+
 
   .footer{
     border-top: 1px solid black;
-    width: 1240px;
-    margin-left: 50px;
+    width: calc(100% - 8px);
+    margin-left: 5px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .footer h3{
-    padding-left: 40px;
+    padding-left: 20px;
   }
 
   .span1{
@@ -128,7 +127,7 @@
     color: #AEF084;
   }
 
-  .botao {
+  a{
     padding: 10px 20px;
     background-color: #ffffff;
     color: #122E23;
@@ -141,6 +140,10 @@
     text-decoration: none;
   }
 
+  a:hover{
+    background-color: #729B79;
+    text-decoration: none;
+    color: #122E23;
+  }
 
 }
-

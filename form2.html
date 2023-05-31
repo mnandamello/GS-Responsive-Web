@@ -7,19 +7,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/form2.css">
+    <link rel="stylesheet" href="./css/form2XS.css">
+    <link rel="stylesheet" href="./css/form2SM.css">
     <title>Formulário de Cadastro da Secretaria</title>
 </head>
     <body>
 
-    <div class="container">
+      <div class="container">
 
         <h2>Formulário de Cadastro da Secretaria</h2>
 
         <form>
 
             <div class="form-group">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <label for="nome">Nome da Empresa:</label>
+                <input type="text" id="nome" name="nome" required value="Maria Fernanda">
+            </div>
+
+            <div class="form-group">
+              <label for="nomeR">Nome do Representante Legal:</label>
+              <input type="text" id="nomeR" name="nomeR" required value="Maria Fernanda">
+            </div>
+
+            <div class="form-group">
+              <label for="cpf">CPF do Representante:</label>
+              <input type="text" id="cpf" name="cpg" required value="Maria Fernanda">
             </div>
 
             <div class="form-group">
@@ -28,9 +40,9 @@
             </div>
 
             <div class="form-group">
-              <label for="email">CNPJ</label>
-              <input type="email" id="email" name="email" required>
-          </div>
+              <label for="endereco">CNPJ da Empresa</label>
+              <input type="text" id="endereco" name="endereco" required>
+            </div>
 
             <div class="form-group">
                 <label for="telefone">Telefone:</label>
@@ -39,30 +51,54 @@
 
             <div class="form-group">
                 <label for="endereco">Endereço:</label>
-                <textarea id="endereco" name="endereco" required></textarea>
+                <input type="text" id="endereco" name="endereco" required>
+            </div>
+
+            <div class="form-group">
+              <label for="endereco">Estado:</label>
+              <input type="text" id="endereco" name="endereco" required value="São Paulo">
             </div>
 
 
             <div>
-              <label for="estado">Estado:</label>
+              <label for="estado">Municipio:</label>
                 <div class="form-group">
                   <select id="estado" name="estado" required>
-                      <option value="">Selecione</option>
-                      <option value="AC">Acre</option>
-                      <option value="AL">Alagoas</option>
-                      <option value="AP">Amapá</option>
-                      <option value="AM">Amazonas</option>
-                      <option value="BA">Bahia</option>
-                      <option value="CE">Ceará</option>
-                      <option value="DF">Distrito Federal</option>
-                      <option value="CE">São Paulo</option>
+                    <option value="">Selecione</option>
+                    <option>Suzano</option>
+                    <option>Mogi das Cruzes</option>
+                    <option>Áruja</option>
+                    <option>Barueri</option>
+                    <option>Guararema</option>
+                    <option>São Caetano do Sul</option>
+                    <option>Campinas</option>
+                    <option>Sorocaba</option>
+                    <option>Piracicaba</option>
+                    <option>Guaruja</option>
+                    <option>Cotia</option>
+                      <!-- Adicione mais opções de estado aqui -->
+                  </select>
+                </div>
+            </div>
+
+            <div>
+              <label for="escola">Escola:</label>
+                <div class="form-group">
+                  <select id="escola" name="escola" required>
+                    <option value="">Selecione</option>
+                    <option>Colégio São Raphael</option>
+                    <option>Colégio Maria Aparecida</option>
+                    <option>Áruja</option>
+                    <option>Barueri</option>
+                    <option>Guararema</option>
+                    <option>São Caetano do Sul</option>
                       <!-- Adicione mais opções de estado aqui -->
                   </select>
                 </div>
             </div>
 
           <div class="form-button">
-            <a href="/">Cadastrar</a>
+            <a class="botao" href="/">Cadastrar</a>
           </div>
 
         </form>
@@ -73,14 +109,26 @@
 
       <img class="img-footer" src="./img/Captura_de_tela_2023-05-26_181458-removebg-preview 1.png" alt="">
   
-      <h2>RM dos Entegrantes</h2>
-      <ul>
-        <li>Maria Fernanda Ribeiro Mello - 98818</li>
-        <li>Nicolas Reis do Espirito Santo - 98819</li>
-        <li>Gabrielle da Silva Stanguini - 98786</li>
-        <li>Lucca Rinaldi Valladão de Freitas - 98207</li>
-        <li>Renan Vieira de Jesus - 551813</li>
-      </ul>
+      <h2>RM dos Integrantes</h2>
+  
+      <div class="footer-class">
+        <ul class="nomes">
+          <li>Maria Fernanda Ribeiro Mello - 98818</li>
+          <li>Nicolas Reis do Espirito Santo - 98819</li>
+          <li>Gabrielle da Silva Stanguini - 98786</li>
+          <li>Lucca Rinaldi Valladão de Freitas - 98207</li>
+          <li>Renan Vieira de Jesus - 551813</li>
+        </ul>
+  
+        <ul class="links-footer">
+          <li><a href="">Contate-nos</a></li>
+          <li><a href="">Cultivo Eficiente</a></li>
+          <li><a href="">IA Generativa</a></li>
+          <li><a href="">Agricultura Sustentável</a></li>
+          <li><a href="">Quem somos Nós</a></li>
+        </ul>
+  
+      </div>
   
   
       <div class="footer">
@@ -90,7 +138,6 @@
   
   
     </footer>
-
 
   </body>
 </html>

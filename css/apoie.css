@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1100px) {
 
   *{
     margin: 0 ;
@@ -102,7 +102,7 @@
     width: 153px;
     height: 99px;
     float: right;
-    padding: 40px 122px;
+    padding: 50px 122px;
   }
 
   footer h2{
@@ -128,8 +128,8 @@
 
   .footer{
     border-top: 1px solid black;
-    width: 1216px;
-    margin-left: 68px;
+    width: 1240px;
+    margin-left: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
