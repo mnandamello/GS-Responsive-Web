@@ -27,7 +27,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 20px;
-  padding: 38px 0 32px 14px;
+  padding: 38px 0 22px 14px;
 }
 
 .quadrado-info p {
@@ -35,7 +35,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #122E23;
-  padding: 0 0 55px 14px;
+  padding: 0 0 35px 14px;
 }
 
 .botao{
@@ -51,5 +51,4 @@
   border-radius: 6px;
   padding-top: 6px;
   margin-left: 153px;
-  margin-top: 20px;
 }

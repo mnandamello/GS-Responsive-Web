@@ -11,7 +11,7 @@
 
   body{
     width: 400px;
-    height: 1322px;
+    height: 1352px;
     background-color: #F2ECE2;
   }
 
@@ -43,7 +43,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: #1E5044;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   section p{
@@ -63,7 +63,7 @@
 
   .quadrado-info{
     width: 260px;
-    height: 332px;
+    height: 362px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 6px;
@@ -108,7 +108,7 @@
     border-radius: 6px;
     padding-top: 6px;
     margin-left: 80px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   /*Footer*/
@@ -117,7 +117,7 @@
     height: 200px;
     background-color: rgb(255, 255, 255);
     border-top: 1px solid #1E5044;
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .nomes{
@@ -154,8 +154,8 @@
 
   .footer{
     border-top: 1px solid black;
-    width: 350px;
-    margin-left: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 13px;

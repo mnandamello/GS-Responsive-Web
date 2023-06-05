@@ -60,7 +60,7 @@
 
   footer{
     width: 100%;
-    height: 190px;
+    height: 200px;
     background-color: rgb(255, 255, 255);
     border-top: 1px solid #1E5044;
     margin-top: 50px;
@@ -96,6 +96,10 @@
   .footer-class{
     display: flex;
     line-height: 22px;
+  }
+
+  .links-footer{
+    margin-top: 10px;
   }
 
   ul li a{

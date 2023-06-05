@@ -8,10 +8,58 @@
     margin: 0;
   }
 
+  .logo{
+    max-width: 123px;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+
+  a{
+    text-decoration: none;
+    color: #1E5044;
+  }
+
+  nav ul li{
+    list-style: none;
+  }
+
+  header{
+    border: 1px #1E5044 solid;
+    max-width: 1200px;
+    height: 95px;
+    margin: 23px 60px 23px 60px;
+    padding: 10px 0px 10px 30px;
+  }
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 23px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 8vh;
+  }
+
+  .lista li{
+    letter-spacing: 3px;
+    margin-left: 12px;
+    display: inline;
+    float: right;
+    color: #1E5044;
+  }
+
+  .lista{
+    margin-left:50px;
+  }
+
   .container {
     max-width: 400px;
     margin: 0 auto;
     margin-bottom: 60px;
+    margin-top: 60px;
   }
 
   .container h2{

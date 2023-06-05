@@ -16,6 +16,12 @@
     color: #1E5044;
   }
 
+  a:hover{
+    background-color: #729B79;
+    text-decoration: none;
+    color: #122E23;
+  }
+
   main{
     width: 684px;
     height: 600px;
@@ -87,6 +93,14 @@
     margin: 35px 0 15px 40px;
   }
 
+  .prg-2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    padding: 80px 10px 0 10px;
+  }
+
   footer{
     width: 100%;
     height: 220px;
@@ -144,4 +158,7 @@
   .span2{
     color: #AEF084;
   }
+
+
+
 }
