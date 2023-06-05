@@ -148,10 +148,10 @@
     color: #AEF084;
   }
 
+  a:hover{
+    background-color: #729B79;
+    text-decoration: none;
+    color: #122E23;
+  }
+
 }
-
-
-
-
-
-

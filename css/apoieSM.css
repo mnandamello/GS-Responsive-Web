@@ -17,7 +17,8 @@
   body{
     width: 744px;
     height: 2377px;
-  }
+    background-color: #F2ECE2;
+  } 
 
   .ft-principal{
     width: 500px;
