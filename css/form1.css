@@ -6,6 +6,10 @@
     height: 890px;
   }
 
+  .hamburger-menu{
+    display: none;
+  }
+
   .logo{
     max-width: 123px;
     height: 100px;

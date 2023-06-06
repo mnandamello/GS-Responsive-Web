@@ -8,6 +8,10 @@
     margin: 0;
   }
 
+  .hamburger-menu{
+    display: none;
+  }
+
   .logo{
     max-width: 123px;
     height: 100px;

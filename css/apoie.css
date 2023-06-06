@@ -7,6 +7,15 @@
 
   /*Add line-height*/
 
+  .lista{
+    display: none;
+  }
+
+
+  .hamburger-menu{
+    display: none;
+  }
+
   body{
     background-color: #F2ECE2;
     max-width: 1347px;
