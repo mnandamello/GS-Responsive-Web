@@ -7,10 +7,6 @@
 
   /*Add line-height*/
 
-  .lista{
-    display: none;
-  }
-
 
   .hamburger-menu{
     display: none;
@@ -20,12 +16,6 @@
     background-color: #F2ECE2;
     max-width: 1347px;
     height: 1370px;
-  }
-
-  .logo{
-    max-width: 123px;
-    height: 100px;
-    margin-left: 50px;
   }
 
 
@@ -44,6 +34,12 @@
     height: 95px;
     margin: 23px 60px 23px 60px;
     padding: 10px 0px 10px 30px;
+  }
+
+  .logo{
+    max-width: 123px;
+    height: 100px;
+    margin-left: 50px;
   }
 
   .links{
@@ -113,7 +109,7 @@
     width: 153px;
     height: 99px;
     float: right;
-    padding: 50px 122px;
+    padding: 65px 122px 0 0;
   }
 
   footer h2{
@@ -159,7 +155,7 @@
     color: #AEF084;
   }
 
-  a:hover{
+  ul li a:hover{
     background-color: #729B79;
     text-decoration: none;
     color: #122E23;

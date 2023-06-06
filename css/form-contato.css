@@ -104,7 +104,7 @@
   }
 
 
-  a:hover{
+  ul li a:hover{
     background-color: #729B79;
     text-decoration: none;
     color: #122E23;
@@ -136,7 +136,7 @@
     width: 153px;
     height: 99px;
     float: right;
-    padding: 50px 122px;
+    padding: 65px 122px 0 0;
   }
 
   footer h2{

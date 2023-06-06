@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) and (max-width: 1000px){
+@media only screen and (min-width: 601px) and (max-width: 800px){
 
     /*Formulário dos Agricultores*/
 
@@ -72,7 +72,7 @@
           background-color: #eee;
           box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
           transition-duration: .25s;
-      z-index: 1;
+          z-index: 1;
       }
       .menu_box li{
           border-bottom: 1px ridge ⁠ddd;
@@ -96,7 +96,7 @@
       }
   
       .Logo{
-        width: 50px;
+        width: 100px;
         height: 50px;
         text-align: center;
         margin: 0 0 0 250px;
@@ -116,7 +116,7 @@
   
     .container {
       max-width: 700px;
-      margin: 0 20px 60px 170px;
+      margin: 0 20px 60px 190px;
     }
   
     .container h2{
@@ -213,8 +213,8 @@
   
     .footer{
       border-top: 1px solid black;
-      width: calc(100% - 10px);
-      margin-left: 5px;
+      width: calc(100% - 40px);
+      margin-left: 18px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
       font-size: 13px;
@@ -233,7 +233,7 @@
       color: #AEF084;
     }
   
-    a{
+    .botao{
       padding: 10px 20px;
       background-color: #ffffff;
       color: #122E23;
@@ -246,7 +246,7 @@
       text-decoration: none;
     }
   
-    a:hover{
+    .botao:hover{
       background-color: #729B79;
       text-decoration: none;
       color: #122E23;

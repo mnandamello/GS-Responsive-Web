@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) and (max-width: 1000px){
+@media only screen and (min-width: 601px) and (max-width: 800px){
 
   /*Formulário das Secretarias*/
 
@@ -117,7 +117,7 @@
 
   .container {
     max-width: 700px;
-    margin: 0 20px 60px 170px;
+    margin: 0 20px 60px 180px;
   }
 
   .container h2{
@@ -191,7 +191,7 @@
     font-weight: 400;
     font-size: 14px;
     color: #122E23;
-    margin: 20px 0 10px 36px;
+    margin: 10px 0 10px 36px;
   }
 
   .footer-class{
@@ -209,15 +209,14 @@
 
   .footer{
     border-top: 1px solid black;
-    width: calc(100% - 10px);
-    margin-left: 5px;
+    width: calc(100% - 40px);
+    margin-left: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 13px;
   }
 
   .footer h3{
-    padding-top: 10px;
     padding-left: 50px;
   }
 
@@ -229,7 +228,7 @@
     color: #AEF084;
   }
 
-  a{
+  .botao{
     padding: 10px 20px;
     background-color: #ffffff;
     color: #122E23;
@@ -242,7 +241,7 @@
     text-decoration: none;
   }
 
-  a:hover{
+  .botao:hover{
     background-color: #729B79;
     text-decoration: none;
     color: #122E23;
