@@ -86,7 +86,7 @@
     .menu_item{
         display: block;
         padding: 12px 24px;
-        color:#15a340;
+        color:#1E5044;
         font-family: 'Roboto', sans-serif;
         font-size: 13px;
         font-weight: 600;
@@ -136,9 +136,14 @@
 
   .main2{
     width: 684px;
-    height: 600px;
-    background-color: #ffffff;
+    height: 675px;
     margin: 45px auto 100px auto;
+  }
+
+  hr{
+    width: 400px;
+    margin: 20px auto 0 auto;
+    border-color: #122E23;
   }
 
   aside{
@@ -146,27 +151,30 @@
     height: 384px;
     float: left;
     background-color: #aa9f8c;
+    border-radius: 6px;
   }
 
   .img-aside{
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 120px;
     margin: 50px auto 30px auto;
+    border-radius: 6px;
   }
 
   .prg-1{
     font-family: 'Roboto Mono', monospace;
     font-size: 11px;
     text-align: left;
-    padding: 23px 0 0 10px;
+    padding: 23px 10px 0 10px;
   }
 
   section{
     width: 444px;
-    height: 600px;
+    height: 675px;
     float: right;
     background-color: #aa9f8c;
+    border-radius: 6px;
   }
 
   h1{
@@ -210,7 +218,7 @@
     font-size: 13px;
     font-weight: 400;
     text-align: left;
-    padding: 80px 10px 0 10px;
+    padding: 30px 10px 0 10px;
   }
 
   footer{

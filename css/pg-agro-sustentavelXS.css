@@ -1,0 +1,282 @@
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  * {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /*Add line-height*/
+
+  body {
+    background-color: #f2ece2;
+  }
+
+  h1 {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+  }
+  .titulo1 {
+    color: #1e5044;
+    font-size: 22px;
+    text-align: center;
+  }
+  .sub-titulo {
+    color: #1e5044;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .Logo {
+    width: 100px;
+    height: 150px;
+    float: left;
+    margin-left: 150px;
+  }
+
+  p {
+    font-family: "Roboto Mono", monospace;
+    line-height: 25px;
+    font-size: 12px;
+    margin: 0 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1e5044;
+  }
+
+  header {
+    width: 100%;
+    height: 150px;
+    margin: 30px 0;
+  }
+
+  .hamburger-menu{
+		float:right;
+	}
+
+  #menu_toggle{
+		opacity: 0;
+	}
+	#menu_toggle:checked + .menu_btn > span{
+		transform:rotate(45deg);
+	}
+	#menu_toggle:checked + .menu_btn > span::before{
+		top:0;
+		transform:rotate(0);
+	}
+	#menu_toggle:checked + .menu_btn > span::after{
+		top:0;
+		transform:rotate(90deg);
+	}
+	#menu_toggle:checked ~ .menu_box{
+		left:0 !important
+	}
+	.menu_btn{
+		position:fixed;
+		top:16px;
+		left: 16px;
+		width: 20px;
+		height: 20px;
+		font-size: 10px;
+		cursor: pointer;
+		z-index: 2;
+	}
+	.menu_btn > span, .menu_btn > span::before, .menu_btn> span::after{
+		display: block;
+		position: relative;
+		width:100%;
+		height: 1px;
+		background-color: #616161;
+		transition-duration: .25s;
+	}
+	.menu_btn > span::before{
+		content: '';
+		top: -8px;
+	}
+	.menu_btn > span::after{
+		content: '';
+		top: 6px;
+	}
+	.menu_box{
+		display: block;
+		position: fixed;
+		top:0;
+		left: -100%;
+		height: 100vh;
+		width: 150px;
+		margin: 0;
+		padding: 42px 0 0 0;
+		list-style: none;
+		background-color: #eee;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+		transition-duration: .25s;
+    z-index: 1;
+	}
+	.menu_box li{
+		border-bottom: 1px ridge #ddd;
+	}
+	.menu_box li:first-child{
+		border-top: 1px ridge #ddd;
+	}
+	.menu_item{
+		display: block;
+		padding: 12px 24px;
+		color:#15a340;
+		font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		text-decoration: none;
+		transition-duration: .25s;
+	}
+	.menu_item:hover{
+		background-color: #ccc;
+	}
+
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 100px;
+  }
+
+  .lista {
+    display: none;
+  }
+  main {
+    max-width: 400px;
+    height: 4700px;
+  }
+
+  .principal{
+    display: block;
+    width: 400px;
+  }
+
+  .agro {
+    display: block;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .ecoagro{
+    display: block;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .beneficio{
+    display: block;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .sec-texto {
+    position: absolute;
+    width: 100%;
+    height: 142px;
+    top: 322px;
+  }
+
+  .a1 {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+  }
+  .a2 {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    
+  }
+  .a3 {
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    
+  }
+  .a4 {
+    width: 100%;
+    height: 860px;
+    margin-top: 50px;
+    
+  }
+  .a5 {
+    width: 100%;
+    height: 1620px;
+    margin-top: 50px;
+  }
+
+  .textos {
+    width: 100%;
+    margin: 20px 0px 0 0px;
+  }
+
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #1e5044;
+    margin-top: 50px;
+  }
+
+  .nomes {
+    display: none;
+  }
+
+  .img-footer {
+    width: 82px;
+    height: 53px;
+    float: right;
+    padding: 40px 30px 0 0;
+  }
+
+  footer h2 {
+    /*font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E5044;*/
+    display: none;
+  }
+
+  footer ul {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 14px;
+    color: #122e23;
+    margin: 20px 0 10px 48px;
+  }
+
+  .footer-class {
+    display: flex;
+    line-height: 22px;
+  }
+
+  .footer {
+    border-top: 1px solid black;
+    width: calc(100% - 40px);
+    margin-left: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .footer h3 {
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+
+  .span1 {
+    color: #1e5044;
+  }
+
+  .span2 {
+    color: #aef084;
+  }
+}

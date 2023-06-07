@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@media only screen and (min-width: 1200px) {
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+main{
+    width: 1280px;
+    padding-bottom: 10px;
+    background-color: #F2ECE2;
+    padding-top: 10px;
+}
+
+body{
+  background-color: #F2ECE2;
+}
+
+ul li a:hover{
+  background-color: #729B79;
+  text-decoration: none;
+  color: #122E23;
+}
+
+
+/* HEADER E MENU  */
+
+  .hamburger-menu{
+    display: none;
+  }
+  header{
+      border: 1px #1E5044 solid;
+      max-width: 1200px;
+      padding: 10px 0px 10px 0px;
+      width: 1200px;
+    
+    }
+
+  .logo{
+      max-width: 123px;
+      height: 100px;
+      margin-left: 50px;
+    }
+  
+  a{
+    text-decoration: none;
+    color: #1E5044;
+  }
+  
+  nav ul li{
+    list-style: none;
+  }
+  
+  
+  
+  .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 23px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 8vh;
+  }
+  
+  .lista li{
+    letter-spacing: 3px;
+    margin-left: 15px;
+    display: inline;
+    float: right;
+    color: #1E5044;
+  }
+  
+
+
+
+
+/* IMAGEM PRINCIPAL E TÍTULO DA PÁGINA */
+
+    .imagem_inicial{
+      /* position: relative; */
+      text-align: center;
+  }
+
+  .bloco_cult{
+      background-color: #1E5044;
+      width: 462px;
+      height: 137px;
+      text-align: center;
+      position:absolute;
+      left: 450px;
+      top: 590px;
+      border-radius: 10px;
+      line-height: 50px;
+
+  }
+
+
+  .bloco_cult h3{
+
+      width: 428px;
+      height: 96px;
+      padding-top: 15px;
+  }
+
+
+  .titulo_cult{
+      color: #FFFF;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      font-size: 32px;
+      
+
+      
+  }
+
+  .imagem_cult{
+      
+      /* margin-left: 40px; */
+      width: 1202px;
+      height: 400px;
+      margin-top: 30px;
+  }
+
+  .imagem_cult img{
+      width: 1202px;
+      border-radius: 10px;
+  }
+
+
+
+  .linha {
+      width: 1200px;
+      height: 0px;
+      background-color:#122e231c;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 250px;
+      border-color: #122e231c;
+  }
+
+
+
+
+
+  /* CONTEÚDO SOBRE CULTIVO EFICIENTE - SECTION 1 */
+
+  .titulo_cultivo{
+      margin-top: 50px;
+      text-align: center;
+      color: #2d7262;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+  }
+
+
+  .texto_cult{
+      text-align: center;
+      color: #2d7262;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 16px;
+      margin-top: 30px;
+      margin-right: 40px;
+      margin-left: 40px;
+      text-align: justify;
+
+  }
+
+
+
+  .icones{
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      align-items: center;
+  }
+
+  .icone{
+      text-align: center;
+  }
+
+  .icone_txt{
+      margin-top: 10px;
+      color: #1E5044;
+      font-size: 20px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+
+  }
+
+  .texto_cult2{
+      text-align: center;
+      color: #2d7262;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 16px;
+      margin-right: 40px;
+      margin-left: 40px;
+      text-align: justify;
+  }
+
+
+  .linha2 {
+      width: 1200px;
+      height: 0px;
+      background-color:#122e231c;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 100px;
+      border-color: #122e231c;
+  }
+
+
+
+
+
+
+  /* TIPOS DE CULTIVO - 2 SECTION */
+
+  .tipos_cult{
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      align-items: center;
+      margin-right: 40px;
+      margin-left: 40px;
+
+  }
+
+  .grupo_imagem{
+    
+      text-align: center;
+
+  }
+
+  .blocotipos{
+      margin-top: 15px;
+      font-size: 16px;
+      background-color:#1E5044;
+      border-radius: 10px;
+      width: 427px;
+      height: 40px;
+      line-height: 40px;
+      color:#F2ECE2;
+      
+  }
+
+  .blocotipos h3{
+      font-family: 'Montserrat';    
+      font-weight: 300;
+  }
+
+  .bloco_texto{
+      background-color: #729b7962;
+      border-radius: 10px;
+      width: 724px;
+  }
+  .bloco_texto p{
+      color:#1E5044;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 14px;
+      text-align: left;
+      padding: 10px;
+
+  }
+
+
+  /* LAYOUT DO TAMANHO SM */
+
+  .linha3_SM{
+    display: none;
+  }
+  .tipos_cult_SM{
+    display: none;
+
+  }
+
+  .grupo_imagem_SM{
+  
+    display: none;
+  }
+
+  .blocotipos_SM{
+    display: none;
+    
+  }
+
+  .blocotipos_SM h3{
+    display: none;
+  }
+
+  .bloco_texto_SM{
+    display: none;
+  }
+  .bloco_texto_SM p{
+    display: none;
+
+  }
+
+
+
+
+  /* FOOTER ECOBYTE */
+
+  footer{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #1E5044;
+  }
+
+  .img-footer{
+    width: 153px;
+    height: 99px;
+    float: right;
+    padding: 50px 122px;
+  }
+
+  footer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0 18px 122px;
+    color: #1E5044;
+  }
+
+  footer ul{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 0 20px 122px;
+    color: #122E23;
+    margin: 0;
+  }
+
+  .footer-class{
+    display: flex;
+    line-height: 22px;
+  }
+
+  .footer{
+    border-top: 1px solid black;
+    width: 1240px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .footer h3{
+    padding-top: 15px;
+    padding-left: 40px;
+  }
+
+  .span1{
+    color: #1E5044;
+  }
+
+  .span2{
+    color: #AEF084;
+  }
+
+  a:hover{
+    background-color: #729B79;
+    text-decoration: none;
+    color: #122E23;
+  }
+
+
+}

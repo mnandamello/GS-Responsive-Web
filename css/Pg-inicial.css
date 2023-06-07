@@ -60,7 +60,13 @@
     height: 95px;
     margin: 23px 60px 23px 60px;
     padding: 10px 0px 10px 30px;
-    background-color: #fafafa;
+    background-color: #F2ECE2;
+  }
+
+  ul li a:hover{
+    background-color: #729B79;
+    text-decoration: none;
+    color: #122E23;
   }
 
   .hamburger-menu{

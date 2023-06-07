@@ -6,6 +6,10 @@
 
   /*Add line-height*/
 
+  .hamburger-menu{
+    display: none;
+  }
+
   body {
     background-color: #f2ece2;
   }
@@ -37,7 +41,7 @@
     height: 95px;
     margin: 23px 60px 23px 60px;
     padding: 10px 0px 10px 30px;
-    background-color: #fafafa;
+    background-color: #f2ece2;
   }
 
   .links {
@@ -259,7 +263,7 @@
     font-size: 14px;
     padding: 0 0 20px 0px;
     color: #122e23;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   .footer-class {
@@ -288,5 +292,11 @@
 
   .span2 {
     color: #aef084;
+  }
+
+  ul li a:hover{
+    background-color: #729B79;
+    text-decoration: none;
+    color: #122E23;
   }
 }

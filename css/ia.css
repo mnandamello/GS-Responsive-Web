@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@media only screen and (min-width: 1200px) {
+
+
+    *{
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+
+    .hamburger-menu{
+        display: none;
+      }
+
+    main{
+        width: 1280px;
+        padding-bottom: 100px;
+        background-color: #F2ECE2;
+        padding-top: 10px;
+    }
+
+    body{
+        background-color: #F2ECE2;
+    }
+
+    header{
+        border: 1px #1E5044 solid;
+        max-width: 1200px;
+        padding: 10px 0px 10px 0px;
+        width: 1200px;
+    
+    }
+
+    .logo{
+        max-width: 123px;
+        height: 100px;
+        margin-left: 50px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #1E5044;
+    }
+    
+    nav ul li{
+        list-style: none;
+    }
+    
+    
+    
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 23px auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        height: 8vh;
+    }
+    
+    .lista li{
+        letter-spacing: 3px;
+        margin-left: 15px;
+        display: inline;
+        float: right;
+        color: #1E5044;
+    }
+    
+    /* .lista{
+        margin-left:140px;
+    } */
+
+
+    ul li a:hover{
+        background-color: #729B79;
+        text-decoration: none;
+        color: #122E23;
+      }
+
+
+
+    .imagem_inicial{
+        /* position: relative; */
+        text-align: center;
+    }
+
+    .bloco_ia{
+        background-color: #3c6564;
+        width: 462px;
+        height: 137px;
+        text-align: center;
+        line-height: 137px;
+        position:relative;
+        left: 0px;
+        top: -70px;
+        border-radius: 10px;
+
+    }
+
+    .titulo_ia{
+        color: #FFFF;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        
+
+        
+    }
+
+    .imagem_ia{
+        
+        /* margin-left: 40px; */
+        width: 1202px;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .imagem_ia img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+
+    .linha {
+        width: 1200px;
+        height: 0px;
+        background-color:#122e231c;
+        margin-top: 20px;
+        border-color: #122e231c;
+    }
+
+
+    /* PRIMEIRA SECTION */
+
+    .oque_sao{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .oque_sao_texto{
+        width: 600px;
+        justify-content: center;
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+    }
+
+    .oque_sao_texto p{
+        text-align: justify;
+        
+    }
+
+    .linha_vert{
+        width: 0px;
+        height: 200px;
+        background-color:#122e231c;
+        border-color: #122e231c;
+
+    }
+
+
+
+
+
+    /* SEGUNDA SECTION */
+
+    .como_funcionam{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+
+    .linha2{
+            width: 1200px;
+            height: 0px;
+            background-color:#122e231c;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 100px;
+            border-color: #122e231c;
+        }
+
+
+    /* TERCEIRA SECTION DOS TIPOS DE IA */
+    .texto_agric{
+        margin-top: 100px;
+        text-align: center;
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 16px;
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+
+    }
+
+    .texto_agric h3{
+        text-align: center;
+    }
+
+
+
+    /* DICAS 1 A 6 */
+
+    .tipos_ia{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: flex-start;
+    }
+
+    .dica1{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .circulo1{
+        background: #1e5044bd;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        
+    
+    }
+
+    .circulo1 h3{
+        font-size: 30px;
+        color: #FFFF;
+        font-family: 'Roboto Mono';
+        font-weight: 300;
+    }
+
+    .linhadica{
+        width: 130px;
+        height: 0px;
+    }
+
+    .blocodica{
+        width: 215px;
+        padding: 5px;
+        background-color:#1e5044bd ;
+        color: #FFFF;
+        text-align: center;
+        border-radius: 5px;
+        font-family: 'Roboto Mono',monospace;
+        font-size: 14px;
+    }
+
+    .textodica{
+        width: 590px;
+        font-family: 'Roboto Mono',monospace;
+        font-size: 14px;
+        color: #2d7262;
+        text-align: center;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 40px;
+
+    }
+
+
+
+    /* SECTION DO CHAT GPT */
+    .chat{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .texto_chatgpt{
+        margin-top: 50px;
+        text-align: center;
+        color: #2d7262;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+    
+
+    .txt_chat{
+        width: 600px;
+        justify-content: center;
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: left;
+    }
+
+
+    .texto_chat2{
+        margin-top: 120px;
+        text-align: center;
+        color: #2d7262;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+
+    .linha_vert2{
+        width: 0px;
+        height: 200px;
+        background-color:#122e231c;
+        border-color: #122e231c;
+
+    }
+
+
+    /* SECTION DICA DO CHATGPT */
+
+    .chatdica{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    img.img_chatdica{
+        border-radius: 10px;
+    }
+
+    .login{
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: left;
+        margin-right: 40px;
+        margin-left: 50px;
+
+    }
+
+    .modelos{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+
+    /* FOOTER ECOBYTE */
+
+    /* footer{
+        width: 100%;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .img-footer{
+        width: 153px;
+        height: 99px;
+        float: right;
+        padding: 40px 122px;
+    }
+    
+    footer h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 25px 0 18px 122px;
+        color: #1E5044;
+    }
+    
+    footer ul{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 0 0 40px 122px;
+        color: #122E23;
+    }
+    
+    .footer{
+        border-top: 1px solid black;
+        width: 1216px;
+        margin-left: 68px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .footer h3{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+    }
+    
+    .span1{
+        color: #1E5044;
+    }
+    
+    .span2{
+        color: #AEF084;
+    } */
+
+
+
+    footer{
+        width: 100%;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-top: 1px solid #1E5044;
+      }
+    
+      .img-footer{
+        width: 153px;
+        height: 99px;
+        float: right;
+        padding: 50px 122px;
+      }
+    
+      footer h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 15px 0 18px 122px;
+        color: #1E5044;
+      }
+    
+      footer ul{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 0 0 40px 122px;
+        color: #122E23;
+      }
+    
+      .footer-class{
+        display: flex;
+        line-height: 22px;
+      }
+    
+      .footer{
+        border-top: 1px solid black;
+        width: 1240px;
+        margin-left: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+      }
+    
+      .footer h3{
+        padding-top: 15px;
+        padding-left: 40px;
+      }
+    
+      .span1{
+        color: #1E5044;
+      }
+    
+      .span2{
+        color: #AEF084;
+      }
+    
+      a:hover{
+        background-color: #729B79;
+        text-decoration: none;
+        color: #122E23;
+      }
+
+}

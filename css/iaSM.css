@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@media only screen and (min-width: 601px) and (max-width: 1000px){
+
+    *{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .lista{
+        display: none;
+      }
+    
+      header {
+        width: 100%;
+        height: 120px;
+        margin: 30px 0;
+      }
+    
+      .hamburger-menu{
+            float:right;
+        }
+    
+      #menu_toggle{
+            opacity: 0;
+        }
+        #menu_toggle:checked + .menu_btn > span{
+            transform:rotate(45deg);
+        }
+        #menu_toggle:checked + .menu_btn > span::before{
+            top:0;
+            transform:rotate(0);
+        }
+        #menu_toggle:checked + .menu_btn > span::after{
+            top:0;
+            transform:rotate(90deg);
+        }
+        #menu_toggle:checked ~ .menu_box{
+            left:0 !important
+        }
+        .menu_btn{
+            position:fixed;
+            top:16px;
+            left: 16px;
+            width: 20px;
+            height: 20px;
+            font-size: 10px;
+            cursor: pointer;
+            z-index: 2;
+        }
+        .menu_btn > span, .menu_btn > span::before, .menu_btn> span::after{
+            display: block;
+            position: relative;
+            width:100%;
+            height: 1px;
+            background-color: #616161;
+            transition-duration: .25s;
+        }
+        .menu_btn > span::before{
+            content: '';
+            top: -8px;
+        }
+        .menu_btn > span::after{
+            content: '';
+            top: 6px;
+        }
+        .menu_box{
+            display: block;
+            position: fixed;
+            top:0;
+            left: -100%;
+            height: 100vh;
+            width: 150px;
+            margin: 0;
+            padding: 42px 0 0 0;
+            list-style: none;
+            background-color: #eee;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+            transition-duration: .25s;
+            z-index: 1;
+        }
+        .menu_box li{
+            border-bottom: 1px ridge ⁠ddd;
+        }
+        .menu_box li:first-child{
+            border-top: 1px ridge ⁠ddd;
+        }
+        .menu_item{
+            display: block;
+            padding: 12px 24px;
+            color:#1E5044;
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition-duration: .25s;
+        }
+    
+        .menu_item:hover{
+            background-color: #ccc;
+        }
+    
+        .Logo{
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          margin: 0 0 0 190px;
+        }
+    
+        .links{
+          display: flex;
+          flex-direction: row;
+          height: 100px;
+        }
+
+    main{
+        width: 90%;
+        padding-bottom: 100px;
+        background-color: #F2ECE2;
+        padding-top: 10px;
+    }
+    
+    body{
+        background-color: #F2ECE2;
+    }
+
+    /* CABEÇALHO */
+
+
+    img.imagem_cabe{
+        width: 123px;
+        height: 77.65px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #1E5044;
+    }
+    
+    nav ul li{
+        list-style: none;
+    }
+    
+    
+    
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 23px auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        height: 8vh;
+    }
+
+    nav.links{
+        width: 90%;
+    }
+    
+    .lista li{
+        letter-spacing: 3px;
+        margin-left: 10px;
+        display: inline;
+        
+        color: #1E5044;
+    }
+    
+    .lista{
+        margin-left:0px;
+    }
+
+
+    /* CONTEUDOS INICIAIS */
+    .imagem_inicial{
+        /* position: relative; */
+        text-align: center;
+        height: 450px;
+    }
+
+    .bloco_ia{
+        background-color: #3c6564;
+        width: 45%;
+        text-align: center;
+        position:relative;
+        top: -50px;
+        border-radius: 10px;
+
+    }
+
+    .titulo_ia{
+        color: #FFFF;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .imagem_ia{
+        
+        /* margin-left: 40px; */
+        margin-top: 30px;
+    }
+
+    .imagem_ia img{
+        width: 90%;
+        height: 389px;
+        border-radius: 10px;
+    }
+
+    .linha {
+        width: 90%;
+        background-color:#122e231c;
+        margin-top: 50px;
+        border-color: #122e231c;
+    }
+
+
+
+
+    /* PRIMEIRA SECTION */
+
+    .oque_sao{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        align-items: center;
+        width: 90%;
+    }
+
+    .oque_sao_texto{
+        width: 304px;
+        justify-content: center;
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: left;
+    }
+
+
+
+    .linha_vert{
+        width: 0px;
+        height: 200px;
+        background-color:#122e231c;
+        border-color: #122e231c;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+    .img_oque_sao{
+        width: 318px;
+        height: 189px;
+    }
+
+
+
+
+
+    /* SEGUNDA SECTION */
+
+    .como_funcionam{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        align-items: center;
+        width: 90%;
+
+    }
+
+    .img_como_funcionam{
+        width: 318px;
+        height: 189px;
+    }
+
+
+    .linha2{
+        width: 90%;
+        background-color:#122e231c;
+        margin-top: 50px;
+        border-color: #122e231c;
+        }
+
+
+
+
+
+    /* TERCEIRA SECTION DOS TIPOS DE IA */
+    .texto_agric{
+        margin-top: 50px;
+        text-align: center;
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 14px;
+        width: 90%;
+        text-align: justify;
+
+    }
+
+
+
+    .texto_agric p{
+        font-size: 12px;
+    }
+
+
+    .texto_agric h3{
+        text-align: center;
+    }
+
+
+    /* DICAS 1 A 6 */
+    .tipos_ia{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: flex-start;
+    }
+
+    .dica1{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        width:90% ;
+        align-items: center;
+    }
+    .circulo1{
+        background: #1e5044bd;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .circulo1 h3{
+        font-size: 16px;
+        color: #FFFF;
+        font-family: 'Roboto Mono';
+        font-weight: 300;
+        width: 50px;
+        height: 50px;
+    }
+
+    .linhadica{
+        width: 100px;
+        height: 0px;
+    }
+
+    .blocodica{
+        width: 215px;
+        padding: 5px;
+        background-color:#1e5044bd ;
+        color: #FFFF;
+        text-align: center;
+        border-radius: 5px;
+        font-family: 'Roboto Mono',monospace;
+        font-size: 10px;
+    }
+
+    .textodica{
+        width: 590px;
+        font-family: 'Roboto Mono',monospace;
+        font-size: 12px;
+        color: #2d7262;
+        text-align: center;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+
+    /* SECTION DO CHAT GPT */
+
+    .chat{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        width: 90%;
+    }
+    .texto_chatgpt{
+        margin-top: 50px;
+        text-align: center;
+        color: #2d7262;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+
+    .txt_chat{
+        width: 90%;
+        justify-content: center;
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    img.img_chat{
+
+        width: 264px;
+        height: 153px;
+    }
+
+    .texto_chat2{
+        margin-top: 100px;
+        text-align: center;
+        color: #2d7262;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .linha_vert2{
+        width: 90%;
+        height: 0px;
+        background-color:#122e231c;
+        border-color: #122e231c;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /* SECTION DICA DO CHATGPT */
+
+    .chatdica{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        align-items: center;
+        width: 90%;
+    }
+    img.img_chatdica{
+        width: 300px;
+        height: 187px;
+        border-radius: 10px;
+    }
+
+    .login{
+        color: #2d7262;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: left;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    p.login{
+        width: 200px;
+    }
+
+    .modelos{
+        text-align: center;
+        margin-top: 100px;
+        width: 90%;
+    }
+
+    img.img_chatmodelos{
+        width: 90%;
+    }
+
+
+
+    /* FOOTER */
+
+    footer{
+        width: 100%;
+        height: 220px;
+        background-color: rgb(255, 255, 255);
+        border-top: 1px solid #1E5044;
+        margin-top: 60px;
+      }
+    
+      .nomes{
+        display: none;
+      }
+    
+      .img-footer{
+        width: 153px;
+        height: 99px;
+        float: right;
+        padding: 16px 30px 0 0;
+      }
+    
+      footer h2{
+        display: none;
+      }
+    
+      footer ul{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: 14px;
+        color: #122E23;
+        margin: 10px 0 10px 56px;
+      }
+    
+      .footer-class{
+        display: flex;
+        line-height: 22px;
+      }
+    
+      .footer{
+        border-top: 1px solid black;
+        width: calc(100% - 40px);
+        margin-left: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+      }
+    
+      .footer h3{
+        padding-top: 15px;
+        padding-left: 20px;
+      }
+    
+      .span1{
+        color: #1E5044;
+      }
+    
+      .span2{
+        color: #AEF084;
+      }
+
+} 
+

@@ -4,7 +4,6 @@
     padding: 0;
   }
 
-  /*Add line-height*/
 
   body {
     background-color: #f2ece2;
@@ -46,13 +45,92 @@
   }
 
   header {
-    border: 1px #1e5044 solid;
-    max-width: 1200px;
-    height: 95px;
-    margin: 23px 60px 23px 60px;
-    padding: 10px 0px 10px 30px;
-    background-color: white;
+    width: 100%;
+    height: 120px;
+    margin: 30px 0;
   }
+
+  .hamburger-menu{
+		float:right;
+	}
+
+  #menu_toggle{
+		opacity: 0;
+	}
+	#menu_toggle:checked + .menu_btn > span{
+		transform:rotate(45deg);
+	}
+	#menu_toggle:checked + .menu_btn > span::before{
+		top:0;
+		transform:rotate(0);
+	}
+	#menu_toggle:checked + .menu_btn > span::after{
+		top:0;
+		transform:rotate(90deg);
+	}
+	#menu_toggle:checked ~ .menu_box{
+		left:0 !important
+	}
+	.menu_btn{
+		position:fixed;
+		top:16px;
+		left: 16px;
+		width: 20px;
+		height: 20px;
+		font-size: 10px;
+		cursor: pointer;
+		z-index: 2;
+	}
+	.menu_btn > span, .menu_btn > span::before, .menu_btn> span::after{
+		display: block;
+		position: relative;
+		width:100%;
+		height: 1px;
+		background-color: #616161;
+		transition-duration: .25s;
+	}
+	.menu_btn > span::before{
+		content: '';
+		top: -8px;
+	}
+	.menu_btn > span::after{
+		content: '';
+		top: 6px;
+	}
+	.menu_box{
+		display: block;
+		position: fixed;
+		top:0;
+		left: -100%;
+		height: 100vh;
+		width: 150px;
+		margin: 0;
+		padding: 42px 0 0 0;
+		list-style: none;
+		background-color: #eee;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+		transition-duration: .25s;
+    z-index: 1;
+	}
+	.menu_box li{
+		border-bottom: 1px ridge #ddd;
+	}
+	.menu_box li:first-child{
+		border-top: 1px ridge #ddd;
+	}
+	.menu_item{
+		display: block;
+		padding: 12px 24px;
+		color:#15a340;
+		font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		text-decoration: none;
+		transition-duration: .25s;
+	}
+	.menu_item:hover{
+		background-color: #ccc;
+	}
 
   .links {
     display: flex;
@@ -65,16 +143,9 @@
     height: 8vh;
   }
 
-  .lista li {
-    letter-spacing: 3px;
-    margin-left: 15px;
-    display: inline;
-    float: right;
-    color: #1e5044;
-  }
 
   .lista {
-    margin-left: 90px;
+    display: none;
   }
 
 
@@ -193,21 +264,21 @@
 }
 
   .sec-gabi{
-    top: 1670px;
+    top: 1680px;
   }
 
   .sec-lucca{
-    top: 1990px;
+    top: 2000px;
 }
 
   .sec-maria{
-    top: 2310px;
+    top: 2320px;
 }
   .sec-nicolas{
-    top: 2630px;
+    top: 2640px;
 }
 .sec-renan{
-    top: 2955px;
+    top: 2965px;
 
 }
 
@@ -265,11 +336,11 @@
     line-height: 22px;
   }
 
-  .footer {
+  .footer{
     border-top: 1px solid black;
-    width: 560px;
+    width: calc(100% - 40px);
     margin-left: 18px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 13px;
   }

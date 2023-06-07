@@ -83,7 +83,7 @@
     .menu_item{
         display: block;
         padding: 12px 24px;
-        color:#15a340;
+        color:#1E5044;
         font-family: 'Roboto', sans-serif;
         font-size: 13px;
         font-weight: 600;
@@ -216,8 +216,8 @@
 
   .footer{
     border-top: 1px solid black;
-    width: calc(100% - 10px);
-    margin-left: 5px;
+    width: calc(100% - 40px);
+    margin-left: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 13px;
